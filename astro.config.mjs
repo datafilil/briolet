@@ -1,5 +1,5 @@
 import { defineConfig } from 'astro/config';
-import vercel from '@astrojs/vercel/server'; // <-- 导入 Vercel 适配器
+import vercel from '@astrojs/vercel'; // <-- 导入 Vercel 适配器
 import keystatic from '@keystatic/astro';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
